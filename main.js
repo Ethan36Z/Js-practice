@@ -28,7 +28,7 @@ document.getElementById("taskForm").addEventListener("submit", function(event){
     const img = document.createElement("img");
 
     // 创建删除图片
-    img.src = "./img/delete.png";
+    img.src = "./delete.png";
     img.alt = "Delete";
     img.style.width = "16px";
     img.style.height = "16px";
@@ -40,4 +40,5 @@ document.getElementById("taskForm").addEventListener("submit", function(event){
     deletecell.appendChild(deleteBtn);
 
     document.getElementById("taskInput").value= "";
+
 })
